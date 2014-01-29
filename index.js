@@ -12,7 +12,7 @@ var init = function(element) {
     var displayArticles = function() {    
         $el.each(function(el, i) {
             if (visible(el[0], true)) {
-                if (!el.hasClass("come-in")) {
+                if (!el.hasClass("come-in") && !el.hasClass("already-visible")) {
                     el.addClass("come-in"); 
                 }
             } 
