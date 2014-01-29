@@ -1,0 +1,21 @@
+{
+  "name": "slide-in-scroll",
+  "repo": "centerdialstudio/slide-in-scroll",
+  "description": "Elements slide in as you scroll down a list of elements in a page",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+      "component/dom": "*",
+      "pazguille/scrolling": "*",
+      "centerdialstudio/visible": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "slide-in-scroll.css"
+  ]
+}
