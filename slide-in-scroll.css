@@ -1,23 +1,29 @@
 .come-in {
-    transform: translateY(200px);
-    -o-transform: translateY(200px);
-    -ms-transform: translateY(200px);
-    -moz-transform: translateY(200px);
-    -webkit-transform: translateY(200px);
+    transform: translateY(350px);
+    -o-transform: translateY(350px);
+    -ms-transform: translateY(350px);
+    -moz-transform: translateY(350px);
+    -webkit-transform: translateY(350px);
     
-    animation: come-in 0.9s ease forwards;
-    -o-animation: come-in 0.9s ease forwards;
-    -ms-animation: come-in 0.9s ease forwards;
-    -moz-animation: come-in 0.9s ease forwards;
-    -webkit-animation: come-in 0.9s ease forwards;
+    animation: come-in 0.4s ease forwards;
+    -o-animation: come-in 0.4s ease forwards;
+    -ms-animation: come-in 0.4s ease forwards;
+    -moz-animation: come-in 0.4s ease forwards;
+    -webkit-animation: come-in 0.4s ease forwards;
+    
+    backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .come-in:nth-child(odd) {
-    animation-duration: 0.6s;
-    -o-animation-duration: 0.6s;
-    -ms-animation-duration: 0.6s;
-    -moz-animation-duration: 0.6s;
-    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.7s;
+    -o-animation-duration: 0.7s;
+    -ms-animation-duration: 0.7s;
+    -moz-animation-duration: 0.7s;
+    -webkit-animation-duration: 0.7s;
 }
 
 .already-visible {
